@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+article{
+    width: 180px;
+    height: 180px;
+}
+.dice_dots-6{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr) ;
+    border: solid black;
+    border-radius: 10%;
+    grid-gap: 12px;
+}
+aside{
+
+}
+
+.one{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: black;
+    border-radius: 50%;
+}
+.two{
+    grid-column: 4;
+    grid-row: 2;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.three{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.four{
+    grid-column: 4;
+    grid-row: 3;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.five{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.six{
+    grid-column: 4;
+    grid-row: 4;
+    background-color: black;
+    border-radius: 50%;
+}
